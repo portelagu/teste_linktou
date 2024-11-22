@@ -32,8 +32,8 @@ function CompararNumeros() {
     var listaNumerosOrdenados = listaNumeros.sort((a, b) => a - b);
 
     // variavéis para armazenar o terceiro maior e menor valor
-    var terceiroNumeroMaior = listaNumerosOrdenados[2];
-    var terceiroNumeroMenor = listaNumerosOrdenados[listaNumerosOrdenados.length - 3]
+    var terceiroNumeroMenor = listaNumerosOrdenados[2];
+    var terceiroNumeroMaior = listaNumerosOrdenados[listaNumerosOrdenados.length - 3]
 
     alert(`O terceiro número maior informado é ${terceiroNumeroMaior}. O terceiro número menor é ${terceiroNumeroMenor}`);
 
